@@ -19,8 +19,8 @@ module.exports = (env, argv) => {
                 children: false,
                 maxModules: 0
             },
-            port: 3001,
-            disableHostCheck: true,
+            port: 3002,
+            // publicPath: 'http://localhost:3002/assets/',
         },
         module: {
             rules: [

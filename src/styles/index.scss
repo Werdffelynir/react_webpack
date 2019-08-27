@@ -1,0 +1,14 @@
+@import './variables';
+
+
+$primary-color-bg: $color-dark;
+$primary-color-text: $color-light;
+$primary-color-textheader: $color-orange;
+
+html, body {
+    background-color: $color-dark;
+    color: $color-light;
+    height: 100%;
+}
+
+

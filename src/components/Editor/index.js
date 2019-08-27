@@ -1,22 +1,15 @@
 import React, { Component } from "react";
-import { hot } from 'react-hot-loader';
-// import {connect, Provider} from "react-redux";
 import classes from './style.scss';
-// import TasksList from "../List/TasksList";
-// import store from "../../store";
-// import { addTask, deleteTask } from "../../actions";
 import classNames from "classnames";
-// import Header from "../Header";
-// import List from "../List";
 
 
-class Main extends Component {
+class Editor extends Component {
 
     componentDidMount() { }
 
     render() {
 
-        const  {state, tasks, length, addTask, deleteTask, updateTask} = this.props;
+        const  {tasks, length, addTask, deleteTask, updateTask} = this.props;
 
         const onTaskAdd = (e) => {
             addTask({ text: 'React Redux Tutorial for Beginners', id: 1 });
@@ -43,4 +36,4 @@ class Main extends Component {
     }
 }
 
-export default Main;
+export default Editor;
