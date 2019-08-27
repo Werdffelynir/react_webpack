@@ -19,7 +19,7 @@ module.exports = (env, argv) => {
                 children: false,
                 maxModules: 0
             },
-            port: 3001,
+            port: 3002,
             disableHostCheck: true,
         },
         module: {

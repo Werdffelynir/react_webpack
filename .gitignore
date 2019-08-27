@@ -1,10 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
-
-#dist
 /.idea/
-
-# Dependency directories
 /node_modules/
-
-#dist
 /dist/
+package-lock.json
