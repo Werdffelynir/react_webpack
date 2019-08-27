@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.text {
+  color: $color-light;
+  padding: 20px;
+
+  a {
+    color: $color-orange;
+  }
+}
+
+.table {
+  display: table;
+  width: 100%;
+
+  > div {
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #222222;
+}

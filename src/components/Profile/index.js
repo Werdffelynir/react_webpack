@@ -3,18 +3,15 @@ import { hot } from 'react-hot-loader';
 import classes from './style.scss';
 
 
-class Main extends Component {
+class Profile extends Component {
     render() {
 
         return (
             <div className={classes.text}>
-
-                <h2>Page Main</h2>
-                <p>Dashboard charts</p>
-
+                <h2>User Profile</h2>
             </div>
         );
     }
 }
 
-export default hot(module)(Main);
+export default hot(module)(Profile);

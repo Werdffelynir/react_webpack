@@ -20,6 +20,7 @@ module.exports = (env, argv) => {
                 maxModules: 0
             },
             port: 3001,
+            disableHostCheck: true,
         },
         module: {
             rules: [

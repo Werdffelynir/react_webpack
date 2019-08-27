@@ -3,16 +3,15 @@ import { hot } from 'react-hot-loader';
 import classes from './style.scss';
 
 
-class Header extends Component {
-
+class Settings extends Component {
     render() {
 
         return (
-            <div className={classes.header}>
-                <h1>My React App!</h1>
+            <div className={classes.text}>
+                <h2>User Settings</h2>
             </div>
         );
     }
 }
 
-export default hot(module)(Header);
+export default hot(module)(Settings);
