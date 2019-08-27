@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.text {
+  color: $color-light;
+  padding: 20px;
+
+  a {
+    color: $color-orange;
+  }
+}

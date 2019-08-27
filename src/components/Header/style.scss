@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+
+.header {
+  background-color: $color-dark-bg;
+
+  > h1 {
+    color: $color-orange;
+    padding: 10px;
+  }
+}
